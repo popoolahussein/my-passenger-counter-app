@@ -1,0 +1,50 @@
+body {
+    background-image: url('/src/images/subway-station.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: sans-serif;
+  }
+  
+  .size {
+    margin-top: 4rem;
+    display: grid;
+    font-weight: bold;
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  
+  h1 {
+    margin-top: 10px;
+    word-break: break-all;
+  }
+  
+  h2 {
+    font-size: 50px;
+    margin-top: 50;
+    margin-bottom: 50px;
+    word-break: break-all;
+  }
+  
+  button {
+    border: none;
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    word-break: break-all;
+    word-wrap: break-word;
+    cursor: pointer;
+  }
+  
+  #increase-btn  {
+    background: darkred;
+  }
+  
+  #save-btn {
+    background: darkgreen;
+  }
